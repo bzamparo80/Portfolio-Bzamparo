@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>Portfolio Belen Zamparo</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">B.</a>
+            </div>   
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/belen.png" alt="">
+            </div>
+            <h1>Belen Zamparo</h1>
+            <h2>Desarrolladora Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI-->   
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Belen Zamparo.</span> Soy contadora, y hace aproximadamente dos años, decidí explorar un nuevo mundo: el desarrollo web. <br><br>
+            Mi objetivo es crear sitios web atractivos y funcionales que marquen la diferencia. Si necesitas un desarrollador web comprometido y creativo para tu próximo proyecto, ¡estoy aquí para ayudarte! <br><br>
+            En este sitio web, encontrarás ejemplos de mis proyectos anteriores y más información sobre cómo puedo ayudarte a llevar tus ideas al mundo digital.
+            Gracias por visitar mi sitio web y considerarme para tu proyecto.</p>
+
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO-->  
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <a href="https://huddle-landing-page-with-curved-sections-master-vert.vercel.app/" target="_blank">
+                <div class="proyecto">
+                    <img src="img/huddle-desktop-preview.jpg" alt="huddle-landing">
+                    <div class="overlay">
+                        <h3>Huddle Landing</h3>
+                        <p>HTML - CSS</p>
+                    </div>
+                </div>
+                </a>
+                <div class="proyecto">
+                    <img src="img/huddle-desktop-preview.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/huddle-desktop-preview.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/huddle-desktop-preview.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/huddle-desktop-preview.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/huddle-desktop-preview.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO--> 
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                    <!-- Formulario--> 
+                    <div class="col">
+                        <input type="text" placeholder="Tu Nombre">
+                        <input type="text" placeholder="Número telefónico">
+                        <input type="mail" placeholder="Dirección de Correo">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+
+                    </div>
+
+            </div>
+        </div>
+    </section> 
+
+    <!-- FOOTER--> 
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+    
+
+    
+</body>
+</html>
