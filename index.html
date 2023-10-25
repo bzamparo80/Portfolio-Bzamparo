@@ -109,11 +109,11 @@
             <div class="fila">
                     <!-- Formulario--> 
                     <div class="col">
-                        <form action="form.php">
-                        <input type="text" placeholder="Tu Nombre" required>
-                        <input type="text" placeholder="Número telefónico" required>
-                        <input type="email" placeholder="Dirección de Correo" required>
-                        <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <form action="form.php" method="post">
+                        <input type="text" name="nombre" placeholder="Tu Nombre" required>
+                        <input type="text" name="telefono" placeholder="Número telefónico" required>
+                        <input type="email" name="correo" placeholder="Dirección de Correo" required>
+                        <textarea name="mensaje" id="texto" cols="30" rows="10" placeholder="Mensaje" required></textarea>
                         <button type="submit">
                             Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                             <span class="overlay"></span>
